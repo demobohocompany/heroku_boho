@@ -164,5 +164,7 @@ SOCIAL_AUTH_FACEBOOK_SECRET = 'b12bc55e7e3b012b2aee2087c205f525'  # App
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '781643825350-qllp6p8heplp7hvalgr87ehjqj972our.apps.googleusercontent.com'
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'FPtlvssRScglx3SEtNwkIntz'
 
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 
 django_heroku.settings(locals())
